@@ -1,0 +1,4 @@
+pytest~=8.3.5
+numpy~=2.2.4
+msgpack~=1.1.0
+protobuf~=6.30.2

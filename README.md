@@ -21,6 +21,8 @@
 - **Comprehensive API**: Clean, well-documented API with both synchronous and asynchronous interfaces.
 - **Custom Analyzer Extensions**: Easily extend with custom analyzers for proprietary formats.
 
+<!--
+
 ## Installation
 
 ```bash
@@ -39,6 +41,7 @@ pip install model-inspector[tensorflow]  # TensorFlow support
 pip install model-inspector[onnx]  # ONNX support
 pip install model-inspector[xgboost]  # XGBoost support
 ```
+--> 
 
 ## Quick Start
 
