@@ -4,8 +4,10 @@
 [![License](https://img.shields.io/github/license/yourusername/model-inspector)](https://opensource.org/licenses/MIT)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
-> ### A comprehensive tool for identifying, analyzing, and extracting metadata from various AI model files by Stephen Genusa
-> ### Please Note: This is a first release. Although highly capable, consider this an alpha version. This is a WIP I began for my own self-education
+> ### Notes: 
+> #### - A comprehensive tool for identifying, analyzing, and extracting metadata from various AI model files by Stephen Genusa
+> #### - This is a first release. Although highly capable, consider this an alpha version. This is a WIP I began for my own self-education
+> #### - The requirements.txt file is not complete yet
 
 ## Features
 
@@ -246,35 +248,34 @@ results = inspector.analyze_directory()
 
 ## Supported Formats
 
-| Format | Extensions | Safety | Description |
-|--------|------------|--------|-------------|
-| SafeTensors | `.safetensors` | Safe | Format designed for secure tensor storage |
-| GGUF/GGML | `.gguf`, `.ggml` | Safe | Large language model format (llama.cpp) |
-| PyTorch | `.pt`, `.pth` | Potentially unsafe | PyTorch model and checkpoint formats |
-| PyTorch JIT | `.pt`, `.pth` | Potentially unsafe | PyTorch JIT compiled models |
-| ONNX | `.onnx` | Safe | Open Neural Network Exchange format |
-| ONNX Runtime | `.ort` | Safe | ONNX Runtime optimized models |
-| TensorFlow | `.pb` | Safe | TensorFlow frozen graph format |
-| TensorFlow SavedModel | Directory | Potentially unsafe | TensorFlow SavedModel format |
-| TFLite | `.tflite` | Safe | TensorFlow Lite format for mobile/edge |
-| HDF5 | `.h5`, `.hdf5` | Safe | Hierarchical Data Format (TensorFlow, Keras) |
-| Checkpoint | `.ckpt` | Potentially unsafe | Generic checkpoint format |
-| CoreML | `.mlmodel` | Safe | Apple CoreML format |
-| CoreML Package | `.mlpackage` | Safe | Apple CoreML package format |
-| XGBoost | `.json`, `.ubj` | Safe | XGBoost model formats |
-| Scikit-learn | `.pkl`, `.joblib`, `.pickle` | Potentially unsafe | Scikit-learn serialized models |
-| JAX | `.msgpack` | Safe | JAX model format |
-| MXNet | `.params`, `.json` | Safe | MXNet model formats |
-| Caffe | `.caffemodel`, `.prototxt` | Safe | Caffe model format |
-| Caffe2 | `.pb` | Safe | Caffe2 model format |
-| PaddlePaddle | `.pdmodel`, `.pdiparams` | Safe | PaddlePaddle model formats |
-| TVM | `.so`, `.tar` | Potentially unsafe | Apache TVM compiled models |
-| OpenVINO IR | `.xml`, `.bin` | Safe | OpenVINO Intermediate Representation |
-| RAPIDS cuML | `.cuml` | Safe | RAPIDS cuML model format |
-| Diffusers | Directory | Safe | Hugging Face Diffusers format |
-| Neural Codec | `.enn` | Safe | EPUB Neural Codec model format |
-| Generic Binary | `.bin` | Needs inspection | Generic binary format (requires detection) |
-| Metal Performance Shaders | `.mps` | Safe | Apple MPS models |
+| Format                    | Extensions                   | Safety             | Description                                  |
+|---------------------------|------------------------------|--------------------|----------------------------------------------|
+| SafeTensors               | `.safetensors`               | Safe               | Format designed for secure tensor storage    |
+| GGUF/GGML                 | `.gguf`, `.ggml`             | Safe               | Large language model format (llama.cpp)      |
+| PyTorch                   | `.pt`, `.pth`                | Potentially unsafe | PyTorch model and checkpoint formats         |
+| PyTorch JIT               | `.pt`, `.pth`                | Potentially unsafe | PyTorch JIT compiled models                  |
+| ONNX                      | `.onnx`                      | Safe               | Open Neural Network Exchange format          |
+| ONNX Runtime              | `.ort`                       | Safe               | ONNX Runtime optimized models                |
+| Diffusers                 | multiple                     | Potentially unsafe | Diffuser models                              |
+| TensorFlow                | `.pb`                        | Safe               | TensorFlow frozen graph format               |
+| TFLite                    | `.tflite`                    | Safe               | TensorFlow Lite format for mobile/edge       |
+| HDF5                      | `.h5`, `.hdf5`               | Safe               | Hierarchical Data Format (TensorFlow, Keras) |
+| Checkpoint                | `.ckpt`                      | Potentially unsafe | Generic checkpoint format                    |
+| CoreML                    | `.mlmodel`                   | Safe               | Apple CoreML format                          |
+| CoreML Package            | `.mlpackage`                 | Safe               | Apple CoreML package format                  |
+| XGBoost                   | `.json`, `.ubj`              | Safe               | XGBoost model formats                        |
+| Scikit-learn              | `.pkl`, `.joblib`, `.pickle` | Potentially unsafe | Scikit-learn serialized models               |
+| JAX                       | `.msgpack`                   | Safe               | JAX model format                             |
+| MXNet                     | `.params`, `.json`           | Safe               | MXNet model formats                          |
+| Caffe                     | `.caffemodel`, `.prototxt`   | Safe               | Caffe model format                           |
+| Caffe2                    | `.pb`                        | Safe               | Caffe2 model format                          |
+| PaddlePaddle              | `.pdmodel`, `.pdiparams`     | Safe               | PaddlePaddle model formats                   |
+| TVM                       | `.so`, `.tar`                | Potentially unsafe | Apache TVM compiled models                   |
+| OpenVINO IR               | `.xml`, `.bin`               | Safe               | OpenVINO Intermediate Representation         |
+| RAPIDS cuML               | `.cuml`                      | Safe               | RAPIDS cuML model format                     |
+| Neural Codec              | `.enn`                       | Safe               | EPUB Neural Codec model format               |
+| Generic Binary            | `.bin`                       | Needs inspection   | Generic binary format (requires detection)   |
+| Metal Performance Shaders | `.mps`                       | Safe               | Apple MPS models                             |
 
 ## Configuration Options
 
