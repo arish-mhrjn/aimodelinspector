@@ -1,8 +1,10 @@
 # Model Inspector
 
-[![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/release/python-370/)
-[![License](https://img.shields.io/github/license/yourusername/model-inspector)](https://opensource.org/licenses/MIT)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/release/python-3100/)
+
+<!--
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+-->
 
 > ### Notes: 
 > #### - A comprehensive tool for identifying, analyzing, and extracting metadata from various AI model files by Stephen Genusa
