@@ -5,9 +5,8 @@
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![Documentation Status](https://readthedocs.io/en/latest/?badge=latest)](https://docs.readthedocs.io/en/latest/?badge=latest)
 
-> A comprehensive tool for identifying, analyzing, and extracting metadata from various AI model files by Stephen Genusa
-
-### Note: First release. Although highly capable, consider this an alpha version. This is a WIP
+> ### A comprehensive tool for identifying, analyzing, and extracting metadata from various AI model files by Stephen Genusa
+> ### Please Note: This is a first release. Although highly capable, consider this an alpha version. This is a WIP I began for my own self-education
 
 ## Features
 
@@ -15,7 +14,7 @@
 - **Model Type Identification**: Automatically identify model architecture and type with confidence levels.
 - **Metadata Extraction**: Extract detailed metadata like model parameters, structure, training information, and format-specific details.
 - **Advanced Filtering**: Filter models by size, type, format, and metadata contents.
-- **Safe Analysis**: Security sandbox for safely analyzing potentially unsafe formats. Unsafe formats are not loaded but parsed for the metadata. The sandbox should not be necessary but this library is an Alpha version and you need to exercise care when dealing with unsafe formats. An analysis of the Sandbox mode is available in the repo.
+- **Safe Analysis**: Security sandbox for safely analyzing potentially unsafe formats. Unsafe formats are not loaded but parsed for the metadata. The sandbox should not be necessary but this library is an Alpha version and you need to exercise care when dealing with unsafe formats. An [analysis of the Sandbox mode](sandbox_analysis.md) is available in the repo.
 - **Asynchronous Processing**: Efficiently process large collections of models.
 - **Caching**: Memory and disk caching for improved performance with large model collections.
 - **Progress Reporting**: Customizable progress reporting for long-running operations.
@@ -386,7 +385,6 @@ permissions.set_format_permission(".pt", Permission.EXECUTE_CODE, True)
 
 While metadata varies by format, common fields include:
 
-```
 # Common across many formats
 - format: Format identifier
 - format_version: Format version number
@@ -433,7 +431,6 @@ While metadata varies by format, common fields include:
 - sample_rate: Audio sample rate
 - audio_channels: Number of audio channels
 - bitrate: Coding bitrate
-```
 
 ## Architecture
 
@@ -539,7 +536,7 @@ Contributions are welcome! Please check out our [contribution guidelines](CONTRI
 
 ```bash
 # Clone the repository
-git clone https://github.com/stephengenusa/ai-model-inspector.git
+git clone https://github.com/StephenGenusa/aimodelinspector.git
 cd model-inspector
 
 # Create virtual environment
@@ -555,7 +552,7 @@ python -m pytest
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
 
 ## Acknowledgments
 
